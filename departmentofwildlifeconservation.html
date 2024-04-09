@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+       <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+            <script src="main.js" defer></script>
+            <title>Department of wildlife conservation</title>
+        </head>
+        <body>
+            <img src="images/edit logo.jpg" class="btn1" id="editbtn">
+            <img src="images/done logo.webp" class="btn1" id="donebtn">     
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="images/Srilanka logo.png.png" alt="Your Logo">
+                </div>
+                <div class="navlinks">
+                    <a href="index.html">Home</a>
+                    <a href="introduction.html">Introduction</a>
+                    <a href="departmentofwildlifeconservation.html">DepartmentofWildlifeConservation</a>
+                    <a href="leopards.html">SriLankanLeopard</a>
+                    <a href="endemic.html">Animals in Sri Lanka</a>
+                    <div class="dropdown">
+                        <button class="dropbutton">Our National Parks &#10549
+                        </button>
+                            <div class="dropdown-content">
+                            <a href="yala.html">Yala National Park</a>
+                            <a href="wilpattu.html">Wilpattu National Park</a>
+                            </div>
+                      </div> 
+                </div>
+                <div id="loginModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Login</h2>
+                        <div id="error" style="color: red; display: none;">Invalid username or password!</div>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <button id="submitBtn" class="butt">Login</button>
+                    </div>
+                </div>
+
+                <button id="loginBtn">LOGIN</button>
+                <button id="logoutBtn">LOGOUT</button>
+                
+                <button class="headerBars">
+                    <img src="images/hamburger_Menu.svg" alt="Menu Bar Button">
+                </button>
+            </nav>
+            
+        </header>
+
+        <!-- Mobile Navigation -->
+        <nav class="mobileNav">
+            <ul class="mobileNavMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wildlife introduction.html">Wildlife Introduction</a></li>
+                <li><a href="department of wildlife conservation.html">Department of Wildlife Conservation</a></li>
+                <li><a href="leopards.html">Sri Lankan Leopard</a></li>
+                <li><a href="endemic.html">Animals in Sri Lanka</a></li>
+                <li><a href="yala.html">Yala National Park</a></li>
+                <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+            </ul>
+        </nav>
+        <!-- End of Mobile Navigation -->
+
+        <div  class="logo-3">
+         <img src="images/cropped-Web-Banner-Quarter-Size.png" class="page3-img">
+        </div>
+
+        <img src="images/Wild-Life.jpg" class="main-image-page3">
+            <section id="dwSection1">
+            <h1 class="heading-center-pg3 eh1" id="dwS1H1" ></h1>
+
+            <div class="center-container">
+                
+                <p class="bordered-paragraph epara" id="dwS1P1"></p>
+            </div>
+            </section>
+
+            <section id="dwSection2">
+            <h1 class="heading-center-pg3 eh1" id="dwS2H1"></h1>
+            <div class="center-container">
+                <p class="bordered-paragraph epara" id="dwS2P1"> </p>
+            </div>
+            </section>
+
+            <section id="dwSection3">
+            <h1 class="heading-center-pg3 eh1" id="dwS3H1"></h1>
+            <div class="center-container">
+                <p class="bordered-paragraph epara" id="dwS3P1"></p>
+            </div>
+            <div class="image-container-pg3">
+                <img src="images/Minneriya-National-Park-4-e1592265441386.jpg" class="protected-image">
+                <img src="images/yala.jpg" class="protected-image">
+                <img src="images/GalOya_EliseHassey_0218.jpg" class="protected-image">
+                <img src="images/sinharaja_pg3.jpg" class="protected-image">
+                <img src="images/minneriyandkadudulla.jpg" class="protected-image">
+                <img src="images/camp-site-01-at-day-time.jpg" class="protected-image">
+            </div>
+            </section>
+
+            <section id="dwSection4">
+            <h1 class="heading-center-pg3 eh1" id="dwS4H1"></h1>
+            <div class="center-container">
+                <p class="bordered-paragraph epara" id="dwS4P1"></p>
+            </div>
+            <div class="image-container-pg3">
+                <img src="images/Hikkaduwa-Coral-Reef.jpg" class="protected-image">
+                <img src="images/bentota-01.jpg" class="protected-image">
+                <img src="images/kalpitiya.jpg" class="protected-image">
+                <img src="images/snorkeling-locations-in-sri-lanka.jpg" class="protected-image">
+                <img src="images/hikkaduwa-marine-national-park-sri-lanka-5-1.jpg" class="protected-image">
+                <img src="images/Turtle-Cover-e1457058909249.jpg" class="protected-image">
+            </div>
+            </section>
+
+        </body>
+        <!---footer design-->
+        <footer style="text-align: center;">
+            <p>&copy; 2024 Sri Lanka's Official Website. All rights reserved.</p>
+            <p>Developed by Shaza Arafath</p>
+        
+            <div class="newsletter-subscription">
+                <h3>Subscribe To Our Newsletter</h3>
+                <form id="newsletterForm">
+                    <div class="input-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+        
+                    <button type="submit">Subscribe</button>
+                
+        
+            <!-- Subscriber Details -->
+            <h3 class="subscriber-heading">Subscriber Details</h3>
+            <div class="subscriber-details">
+                <table id="subscriberList" style="color: black;">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="subscriberTableBody">
+                        <!-- Subscriber details will be inserted here dynamically -->
+                    </form>
+                </div>
+                    </tbody>
+                </table>
+            </div>
+
+            
+        </footer>
+        
+
+        
+         
+      
+           
+   
+        
+            <!---Main image= scenic-engine (2019). Sri Lanka Wildlife Holidays. [online] Available at: https://scenicventures.com/our-featured-tours/sri-lanka-wildlife-holidays/ [Accessed 16 Jan. 2024].
+
+content taken from = Anon, (n.d.). Department of Wildlife Conservation – We Protect Future! [online] Available at: https://www.dwc.gov.lk/. 
+
+Yala picture = www.mrandmrssmith.com. (n.d.). Luxury holidays in Yala National Park | Mr & Mrs Smith. [online] Available at: https://www.mrandmrssmith.com/destinations/galle/yala-national-park.
+
+admin (2018). Everything You Need To Know About Yala National Park. [online] International traveller magazine. Available at: https://internationaltraveller.com/asia/sri-lanka/everything-you-need-to-know-about-yala-national-park/ [Accessed 16 Jan. 2024].
+
+---->
+
+</html> 
+
+        
+        
